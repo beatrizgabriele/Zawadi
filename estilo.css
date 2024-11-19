@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+/* imagem topo */
+.top-bar {
+    width: 100%;
+    height: 20px;
+    background: url('imagem-top.png') no-repeat center; 
+    background-size: cover; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+/* TÍTULO */
+.titulo{
+    font-family: "Bungee", sans-serif;
+    font-size: 40px;
+    
+}
+/* icones para redes sociais  */
+.social-icones {
+    padding-top: 22px;
+    position: absolute;
+    right: 94px;
+    text-align: right;
+    width: 1300px;
+    
+
+}
+
+.social-icones a {
+    margin-left: 6px;
+
+}
+
+/* links de blog, supote e sobre nós */
+.top-links {
+    position: absolute;
+    left: 90px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    padding-right: 25px;
+    padding-top: 24px;
+   
+
+}
+
+.top-links a {
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+
+.top-links a:hover {
+    text-decoration: underline;
+
+}
+
+/* hr (linha) longe da borda  */
+hr {
+    margin-left: 84px;
+    margin-right: 84px;
+}
+
+/* header da logo, perfil e carrinho */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+
+}
+
+/* logo */
+.logo {
+    width: 150px;
+    cursor: pointer;
+    margin-left: 14px; 
+}
+
+
+.icons-container{
+    margin-right: 20px;
+    margin-left: 12px;
+  
+}
+
+/* icone do perfil e carrinho  */
+.image-button {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url('Design\ sem\ nome.png');
+    background-size: cover;
+    background-position: center;
+    border: none;
+   
+}
+
+.image-button:hover {
+    opacity: 0.8;
+
+}
+
+/* todos os (nav) pertencem ao menu e dropdown */
+
+.menu nav {
+    background-color: #6f0d02;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: rgb(226, 225, 225);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    transition: color 0.3s;
+
+}
+
+nav ul li a:hover {
+    color: #d51d18
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6f0d02;
+    z-index: 1;
+    min-width: 160px;
+    padding: 0;
+
+}
+
+nav ul li .dropdown-content li {
+    margin: 0;
+
+}
+
+nav ul li .dropdown-content li a {
+    padding: 10px 15px;
+}
+
+nav ul li .dropdown-content li a:hover {
+    background-color: #921e12;
+    color: #ffffff;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+
+footer {
+    background-color: #090909;
+    color: rgb(243, 240, 240);
+    padding: 20px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.footer-bottom p {
+    margin: 0;
+    text-align: center;
+}
